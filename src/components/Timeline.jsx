@@ -19,15 +19,15 @@ export default function Timeline() {
                     >
                         {/* Perfectly aligned dot */}
                         <div
-                            className={`border-background absolute -left-2 mt-1.5 h-3 w-3 rounded-full border-2 transition-all duration-300 ${activeItem === index ? 'bg-secondary scale-150' : 'bg-primary'} ${item.type === 'work' ? 'group-hover:bg-secondary group-hover:scale-125' : ''} `}
+                            className={`border-background absolute ml-[-38.5px] mt-1.5 h-3 w-3 rounded-full border-2 transition-all duration-300 ${activeItem === index ? 'bg-secondary scale-150' : 'bg-primary'} ${item.type === 'work' ? 'group-hover:bg-secondary group-hover:scale-125' : ''} `}
                         ></div>
 
                         <div
-                            className={`relative overflow-hidden rounded-lg border p-6 transition-all duration-300 ${activeItem === index ? 'border-secondary/30 from-secondary/5 to-primary/5 bg-gradient-to-r shadow-lg' : 'border-tertiary/10'} ${item.type === 'work' ? 'hover:border-tertiary/30 cursor-pointer' : ''} `}
+                            className={`relative overflow-hidden rounded-lg border p-6 transition-all duration-300 ${activeItem === index ? 'border-secondary/30 from-secondary/5 to-primary/5 bg-linear-to-r shadow-lg' : 'border-tertiary/10'} ${item.type === 'work' ? 'hover:border-tertiary/30 cursor-pointer' : ''} `}
                         >
                             {/* Work experience accent bar */}
                             {item.type === 'work' && (
-                                <div className="from-secondary to-primary absolute top-0 left-0 h-full w-1 rounded-l-lg bg-gradient-to-b"></div>
+                                <div className="from-secondary to-primary absolute top-0 left-0 h-full w-1 rounded-l-lg bg-linear-to-b"></div>
                             )}
 
                             <div className="ml-4">
