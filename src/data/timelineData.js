@@ -1,0 +1,82 @@
+export const timelineData = [
+    {
+        type: 'work',
+        title: 'Software Engineer I',
+        company: 'IBIND Systems Private Limited',
+        date: 'Oct 2024 – Present',
+        location: 'Bengaluru, India',
+        description:
+            'Building fintech solutions for banking onboarding experiences with modern web technologies.',
+        technologies: [
+            'Angular 19',
+            'React',
+            'Node.js',
+            'NestJS',
+            'Express.js',
+            'Tailwind CSS',
+            'JWT',
+            'AWS',
+            'GCP',
+            'Docker',
+            'Passport.js',
+        ],
+        achievements: [
+            'Designed and improved frontend components in Angular (v19) and React for banking onboarding workflows',
+            'Transformed Figma designs into responsive, production-ready interfaces with TailwindCSS',
+            'Built secure backend microservices with authentication and API integrations',
+            'Implemented compliance standards for fintech domain security',
+        ],
+        responsibilities: [
+            'Frontend development with Angular and React frameworks',
+            'Backend API development with Node.js and NestJS',
+            'UI/UX implementation from Figma designs',
+            'Security implementation and compliance adherence',
+        ],
+    },
+    {
+        type: 'work',
+        title: 'Frontend Web Developer',
+        company: 'Iraitech Innovations & Technologies',
+        date: 'Apr 2022 – Sep 2024',
+        location: 'Delhi, India',
+        description:
+            'Led frontend development for educational platforms and introduced microfrontend architecture.',
+        technologies: [
+            'Angular',
+            'React',
+            'Microfrontends',
+            'TypeScript',
+            'JavaScript',
+            'CSS3',
+            'HTML5',
+        ],
+        achievements: [
+            'Led frontend teams in building complex web applications for educational platforms',
+            'Introduced microfrontend architecture to improve modularity and scalability',
+            'Broke frontend monolith into smaller, independent units speeding up development',
+            'Delivered engaging and easy-to-use learning experiences through iterative development',
+        ],
+        responsibilities: [
+            'Frontend architecture design and implementation',
+            'Team leadership and technical guidance',
+            'Code review and quality assurance',
+            'Performance optimization and user experience improvement',
+        ],
+    },
+    {
+        type: 'education',
+        title: 'B.Tech in Information Technology',
+        company: 'Sai Vidya Institute of Technology',
+        date: 'Aug 2015 – Apr 2019',
+        location: 'Bengaluru, India',
+        description:
+            'Graduated with a 6.2 CGPA, focusing on software development and computer science fundamentals.',
+        technologies: [
+            'Data Structures',
+            'Algorithms',
+            'Database Systems',
+            'Web Technologies',
+            'Software Engineering',
+        ],
+    },
+];
